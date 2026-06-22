@@ -143,7 +143,11 @@ details.footer-more summary{font-family:'Noto Serif JP',serif;font-size:.78rem;c
 details.footer-more ol{font-family:'Noto Serif JP',serif;font-size:.78rem;color:rgba(255,255,255,.75);line-height:1.9;padding-left:1.3rem;margin-bottom:.7rem;}
 .footer-progress{font-family:'JetBrains Mono',monospace;font-size:.75rem;color:rgba(255,255,255,.65);margin-bottom:.4rem;}
 .footer-credit{font-family:'JetBrains Mono',monospace;font-size:.65rem;color:rgba(255,255,255,.45);}
-@media print{.header,.dashboard,.legend-wrap,.card-actions,.prog-btns{display:none !important;}body{background:#FFF;color:#000;}.case-card{box-shadow:none;break-inside:avoid;border:1px solid #CCC;}}
+.audio-player{display:flex;align-items:center;gap:.65rem;background:var(--bg-inner);border:1px solid var(--border2);border-left:2px solid var(--gold);border-radius:3px;padding:.55rem .8rem;margin-bottom:1rem;flex-wrap:wrap;}
+.audio-label{font-family:'Noto Serif JP',serif;font-size:.74rem;font-weight:700;color:var(--gold);white-space:nowrap;}
+.audio-player audio{flex:1;min-width:180px;height:32px;filter:invert(.88) hue-rotate(180deg) brightness(1.05);border-radius:16px;}
+.audio-player audio::-webkit-media-controls-panel{background:var(--bg-inner);}
+@media print{.header,.dashboard,.legend-wrap,.card-actions,.prog-btns,.audio-player{display:none !important;}body{background:#FFF;color:#000;}.case-card{box-shadow:none;break-inside:avoid;border:1px solid #CCC;}}
 </style>
 </head>
 <body>
@@ -239,6 +243,10 @@ details.footer-more ol{font-family:'Noto Serif JP',serif;font-size:.78rem;color:
       <span class="v">fashion</span>
       <span class="o">our tools</span></span>.
     </div>
+    <div class="audio-player">
+      <span class="audio-label">🔊 音声で確認</span>
+      <audio controls preload="none" src="audio/case-1.mp3"></audio>
+    </div>
     <details class="reveal-details reveal-jp"><summary class="reveal-summary">📖 日本語訳</summary><div class="reveal-inner">
       <div class="translation">それ（テクノロジー）は生態学の最も中心的な特徴を例示し、体現している。すなわち、複雑性・相互関連性・相互依存性・制御と能動性の分散、さらには大地と空との近しさ——そして私たちはその上に、その下に、そしてその外へと、道具を作り出してきた。</div>
     </div></details>
@@ -310,6 +318,10 @@ details.footer-more ol{font-family:'Noto Serif JP',serif;font-size:.78rem;color:
       <span class="v">rarely think</span>
       <span class="adv">to question them</span></span>.
     </div>
+    <div class="audio-player">
+      <span class="audio-label">🔊 音声で確認</span>
+      <audio controls preload="none" src="audio/case-2.mp3"></audio>
+    </div>
     <details class="reveal-details reveal-jp"><summary class="reveal-summary">📖 日本語訳</summary><div class="reveal-inner">
       <div class="translation">私たちは、私たちの思考様式に組み込まれ、そして私たちが日々使う道具の中に非常に深く埋め込まれているため、それらを疑ってみることすら滅多にないような、多くの前提や偏見を検証することから、そのような生態学の構築を始める。</div>
     </div></details>
@@ -374,6 +386,10 @@ details.footer-more ol{font-family:'Noto Serif JP',serif;font-size:.78rem;color:
       <span class="cl-ins">—<span class="ins"><span class="conj">as</span>
       <span class="v">does</span>
       <span class="s">an unthinking critique of technological progress</span></span>—</span>.
+    </div>
+    <div class="audio-player">
+      <span class="audio-label">🔊 音声で確認</span>
+      <audio controls preload="none" src="audio/case-3.mp3"></audio>
     </div>
     <details class="reveal-details reveal-jp"><summary class="reveal-summary">📖 日本語訳</summary><div class="reveal-inner">
       <div class="translation">私たちが地球に加えている破壊は、私たちの種を洞窟へと追い戻す十分な可能性を持っている——無批判なテクノロジー批判もまた同様に。</div>
@@ -441,6 +457,10 @@ details.footer-more ol{font-family:'Noto Serif JP',serif;font-size:.78rem;color:
       <span class="v">was</span>
       <span class="c">gradual</span></span>.
     </div>
+    <div class="audio-player">
+      <span class="audio-label">🔊 音声で確認</span>
+      <audio controls preload="none" src="audio/case-4.mp3"></audio>
+    </div>
     <details class="reveal-details reveal-jp"><summary class="reveal-summary">📖 日本語訳</summary><div class="reveal-inner">
       <div class="translation">人々が、湖が凍った冬が続いたあと、それに続く凍らない年々を目にしたとき——変化は実際には緩やかなものだったにもかかわらず——彼らは明確な「以前」と「以後」を感知した。</div>
     </div></details>
@@ -506,6 +526,10 @@ even though の逆接が Para.6 のテーゼを鮮明にする</div>
       <span class="v">are</span>
       <span class="c">essentially meat</span></span></span>.
     </div>
+    <div class="audio-player">
+      <span class="audio-label">🔊 音声で確認</span>
+      <audio controls preload="none" src="audio/case-5.mp3"></audio>
+    </div>
     <details class="reveal-details reveal-jp"><summary class="reveal-summary">📖 日本語訳</summary><div class="reveal-inner">
       <div class="translation">体外の研究室で組織を育てるプロセスは、自己複製する細胞・栄養素・ホルモン、そして元の細胞が成長し増殖することを可能にするその他の因子を必要とし、最終的には本質的に「肉」である合成動物筋肉の帯を作り出す。</div>
     </div></details>
@@ -569,6 +593,10 @@ O：self-replicating cells, food, hormones, and other factors
       <span class="v">most closely ties</span>
       <span class="s">us</span>
       <span class="adv">to our context and our environment</span></span>.
+    </div>
+    <div class="audio-player">
+      <span class="audio-label">🔊 音声で確認</span>
+      <audio controls preload="none" src="audio/case-6.mp3"></audio>
     </div>
     <details class="reveal-details reveal-jp"><summary class="reveal-summary">📖 日本語訳</summary><div class="reveal-inner">
       <div class="translation">物質世界とのインターフェースとして理解されるテクノロジーは、私たちを私たちの文脈と環境に最も密接に結びつける、まさにその人間的実践である。</div>
@@ -639,6 +667,10 @@ C の三重構造：
       <span class="v">has</span>
       <span class="o">the potential to be much less harmful to the environment</span></span>.
     </div>
+    <div class="audio-player">
+      <span class="audio-label">🔊 音声で確認</span>
+      <audio controls preload="none" src="audio/case-7.mp3"></audio>
+    </div>
     <details class="reveal-details reveal-jp"><summary class="reveal-summary">📖 日本語訳</summary><div class="reveal-inner">
       <div class="translation">培養肉の生産も確かに何らかのカーボンフットプリントを残すだろうが、正しく効率的に行われれば、環境への害をはるかに少なくできる可能性があるというのが、その考えの骨子だ。</div>
     </div></details>
@@ -708,6 +740,10 @@ C の三重構造：
       <span class="c">apathy</span>
       <span class="adv">despite worsening conditions</span></span>:
       <span class="ins">like a frog in a pan of slowly warming water</span>—</span>.
+    </div>
+    <div class="audio-player">
+      <span class="audio-label">🔊 音声で確認</span>
+      <audio controls preload="none" src="audio/case-8.mp3"></audio>
     </div>
     <details class="reveal-details reveal-jp"><summary class="reveal-summary">📖 日本語訳</summary><div class="reveal-inner">
       <div class="translation">これは「ゆでガエル効果」として知られている——わずかで漸進的な変化がアラームを鳴らすことに失敗し、状況が悪化しているにもかかわらず無気力をもたらす：ゆっくりと温められる鍋の中のカエルのように。</div>
@@ -782,6 +818,10 @@ C の三重構造：
       <span class="v">separate</span>
       <span class="s">us</span>
       <span class="adv">from other species and the world</span></span>.
+    </div>
+    <div class="audio-player">
+      <span class="audio-label">🔊 音声で確認</span>
+      <audio controls preload="none" src="audio/case-9.mp3"></audio>
     </div>
     <details class="reveal-details reveal-jp"><summary class="reveal-summary">📖 日本語訳</summary><div class="reveal-inner">
       <div class="translation">知性を、そして他の生き物においてそれが現れる形態を再考することによって、私たちは私たちを他の種や世界から切り離している障壁や誤った階層の一部を壊し始めるだろう。</div>
@@ -860,6 +900,10 @@ C の三重構造：
       <span class="s">it</span>
       <span class="v">goes</span>
       <span class="c">mainstream</span></span></span></span>.
+    </div>
+    <div class="audio-player">
+      <span class="audio-label">🔊 音声で確認</span>
+      <audio controls preload="none" src="audio/case-10.mp3"></audio>
     </div>
     <details class="reveal-details reveal-jp"><summary class="reveal-summary">📖 日本語訳</summary><div class="reveal-inner">
       <div class="translation">これには時間がかかるかもしれないが、歴史が示してきたように、あるテクノロジーの時代が来ると、そのコストが主流となりうる水準まで下がるのは時間の問題に過ぎない。</div>
